@@ -1,0 +1,44 @@
+.header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  justify-items: center;
+  align-items: center;
+  height: 239px;
+  font-family: "Raleway-Regular";
+}
+
+.header__menu {
+  width: 392px;
+}
+
+.header__link-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: circle;
+}
+
+.header__link-list-item {
+
+}
+
+.header__link-list-item_no-bullit {
+  list-style: none;
+}
+  
+.header__link-list-item-link {
+  text-decoration: none;
+}
+
+.header__logo {
+  width: 148px;
+}
+
+.header__adress {
+  display: flex;
+  flex-direction: column;
+}
+
+.address {
+  font-style: normal;
+  line-height: 24px;
+}
